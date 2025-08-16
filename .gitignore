@@ -7,7 +7,7 @@
 .buildlog/
 .history
 
-
+/lib/firebase_options
 
 # Flutter repo-specific
 /bin/cache/
