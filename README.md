@@ -1,1 +1,1 @@
-Chat app that detects user emotions using Bert AI models
+Chat app that detects user emotions using Bert AI models.
