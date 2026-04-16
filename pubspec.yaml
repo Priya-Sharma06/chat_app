@@ -1,12 +1,10 @@
 name: flutproject
-description: A sample command-line application with basic argument parsing.
+description: A sample Flutter application
 version: 0.0.1
-# repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.7.2
+  sdk: ">=3.7.0 <4.0.0"
 
-# Add regular dependencies here.
 dependencies:
   flutter:
     sdk: flutter
@@ -14,15 +12,16 @@ dependencies:
   firebase_auth: ^5.5.1
   cloud_firestore: ^5.6.5
   google_sign_in: ^6.3.0
-  args: ^2.5.0
   intl: ^0.18.1
   http: ^1.1.0
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lints: ^5.0.0
-  test: ^1.24.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/wallpaper.jpg

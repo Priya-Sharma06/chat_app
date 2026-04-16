@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=C:\flutter_windows_3.29.2-stable\flutter
-FLUTTER_APPLICATION_PATH=C:\flutproject
+FLUTTER_ROOT=C:\Users\Ishita\Downloads\flutter_windows_3.29.2-stable\flutter
+FLUTTER_APPLICATION_PATH=C:\Users\Ishita\StudioProjects\Flutter-Chat-App
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib\main.dart
 FLUTTER_BUILD_DIR=build

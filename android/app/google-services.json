@@ -12,7 +12,20 @@
           "package_name": "com.example.flutproject"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "544480669735-n8rv4dcs797juskhabt6b86upqbiopr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutproject",
+            "certificate_hash": "55be5976ecd534187a0daa15ad5032d54a58a605"
+          }
+        },
+        {
+          "client_id": "544480669735-3v812qspdo89oq0b8plkaju5bl09s8p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBZYG-hEniqR8sBp5yELRTPbONjQr0mbIE"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544480669735-3v812qspdo89oq0b8plkaju5bl09s8p9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "544480669735-vc2vjv0fr2pq0ehf4g5ef2f559r7khhn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutproject"
+              }
+            }
+          ]
         }
       }
     }
