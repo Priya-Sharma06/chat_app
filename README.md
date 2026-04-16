@@ -20,13 +20,6 @@ An intelligent real-time messaging application that combines seamless communicat
 - Aggregated emotion statistics over time
 - Dominant emotion identification for conversation context
 
-**Emotion Analytics Dashboard**
-- Comprehensive emotion breakdown with visual progress bars
-- Color-coded emotion indicators (Joy→Orange, Sadness→Blue, Anger→Red, etc.)
-- Detailed message analysis showing emotion per message
-- Percentage distribution of emotions
-- Dominant emotion highlighting
-
 **User Authentication**
 - Secure Google Sign-In integration
 - Firebase Authentication backend
@@ -35,18 +28,18 @@ An intelligent real-time messaging application that combines seamless communicat
 
 **Modern UI/UX**
 - Beautiful gradient backgrounds with soft pastel colors
-        - Smooth animations for enhanced user experience
-        - Dynamic message bubbles with real-time rendering
+- Smooth animations for enhanced user experience
+- Dynamic message bubbles with real-time rendering
 - Responsive design that works on all screen sizes
 - Intuitive navigation between chat modes
 
 ## 🏗️ Architecture
 
-**Frontend:** Flutter with Dart
-**Backend:** Firebase (Authentication & Firestore) + FastAPI (Emotion Detection)
-**AI Model:** DistilRoBERTa-base fine-tuned for emotion detection
-**Real-Time Database:** Cloud Firestore
-**Authentication:** Google Sign-In with Firebase Auth
+- **Frontend:** Flutter with Dart
+- **Backend:** Firebase (Authentication & Firestore) + FastAPI (Emotion Detection)
+- **AI Model:** DistilRoBERTa-base fine-tuned for emotion detection
+- **Real-Time Database:** Cloud Firestore
+- **Authentication:** Google Sign-In with Firebase Auth
 
 ## 🚀 Tech Stack
 
@@ -61,32 +54,32 @@ The app seamlessly integrates mobile development with machine learning, deliveri
 ## 📊 Screen Flow Diagram
 
 ```
-                                          START
-                                            │
-                                            ↓
-                                ┌─────────────────┐
-                                │  Home Screen    │
-                                │ (Google Sign-In)│
-                                └─────────────────┘
-                                            │
-                                            │ Authenticate
-                                            ↓
-                                ┌─────────────────┐
-                                │  Chat Screen    │
-                                └─────────────────┘
-                                            │
+                              START
+                                │
+                                ↓
+                        ┌─────────────────┐
+                        │  Home Screen    │
+                        │(Google Sign-In) │
+                        └─────────────────┘
+                                │
+                                │Authenticate
+                                ↓
+                       ┌─────────────────┐
+                       │   Chat Screen   │
+                       └─────────────────┘
+                                │
            ┌────────────────────┼────────────────────┐
            │                    │                    │
            ↓                    ↓                    ↓
-   ┌─────────────┐   ┌─────────────┐   ┌──────────────┐
-   │Global Chat  │   │   Recents   │   │Private Chat  │
-   │   (Rooms)   │   │  (Threads)  │   │  (1-to-1)    │
-   └─────────────┘   └─────────────┘   └──────────────┘
-           │                   │                   │
+   ┌─────────────┐       ┌─────────────┐     ┌──────────────┐
+   │Global Chat  │       │   Recents   │     │Private Chat  │
+   │   (Rooms)   │       │  (Threads)  │     │  (1-to-1)    │
+   └─────────────┘       └─────────────┘     └──────────────┘
+           │                    │                   │
            └────────────────────┼───────────────────┘
-                                            │
-                            User Sends Message
-                                            │
+                                │
+                        User Sends Message
+                                │
            ┌────────────────────┴────────────────────┐
            │                                         │
            ↓                                         ↓
@@ -109,10 +102,10 @@ The app seamlessly integrates mobile development with machine learning, deliveri
            ↓
    ┌──────────────┐                   ┌──────────────────────┐
    │ Update UI    │                   │ View Stats Button    │
-   │ in Chat      │                   │                      │
-   │ Screen       │──────────────────→│ Emotion Results      │
-   │              │  5-min Messages   │ Screen               │
-   └──────────────┘                   └──────────────────────┘
+   │ in Chat      │──────────────────→│                      │
+   │ Screen       │  5-min Messages   │ Emotion Results      │
+   └──────────────┘                   │ Screen               │
+                                      └──────────────────────┘
 ```
 
 ## 🔄 Data Flow
